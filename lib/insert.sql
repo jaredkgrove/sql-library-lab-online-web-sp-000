@@ -9,3 +9,8 @@ INSERT INTO subgenres (name) VALUES
 INSERT INTO authors (name) VALUES
 ("author 1"),
 ("author 2");
+
+INSERT INTO books (title, year, series_id) VALUES
+("book 1", 1990, 1),
+("book 2", 2000, 1),
+("book 3", 2010, 2);
