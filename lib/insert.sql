@@ -5,3 +5,7 @@ INSERT INTO series (title, author_id, subgenre_id) VALUES
 INSERT INTO subgenres (name) VALUES
 ("subgenre 1"),
 ("subgenre 2");
+
+INSERT INTO authors (name) VALUES
+("author 1"),
+("author 2");
