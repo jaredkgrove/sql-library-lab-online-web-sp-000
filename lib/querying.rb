@@ -13,7 +13,7 @@ def select_name_and_motto_of_char_with_longest_motto
   "
   SELECT characters.name, characters.motto
   FROM characters
-  WHERE LEN(characters.motto) = (SELECT MAX(LEN(characters.motto)) FROM characters)
+  WHERE LENGTH(characters.motto) = (SELECT MAX(LENGTH(characters.motto)) FROM characters)
   "
 end
 
