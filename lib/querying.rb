@@ -22,7 +22,7 @@ def select_value_and_count_of_most_prolific_species
   "
   SELECT characters.species, COUNT(characters.species)
   FROM characters
-  WHERE LENGTH(characters.motto) = (SELECT MAX(LENGTH(characters.motto)) FROM characters)
+  GROUP BY characters.species
   "
 end
 
