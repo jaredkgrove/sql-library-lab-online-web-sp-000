@@ -30,3 +30,9 @@ CREATE TABLE sub_genres (
   id INTEGER PRIMARY KEY,
   name TEXT
 );
+
+CREATE TABLE character_books (
+  id INTEGER PRIMARY KEY,
+  character_id INTEGER,
+  book_id INTEGER
+);
